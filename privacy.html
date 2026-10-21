@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Gadget Inventory</title>
+  <meta name="description" content="How Gadget Inventory handles business records and the optional Google Drive backup.">
+  <style>
+    :root { --ink: #1d232b; --muted: #5b6573; --bg: #f7f6f2; --accent: #2a78d6; --line: #e3e0d8; }
+    @media (prefers-color-scheme: dark) { :root { --ink: #ecebe6; --muted: #a8afba; --bg: #16191d; --accent: #6aa8ef; --line: #333a43; } }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; }
+    h1 { font-size: 28px; margin: 0 0 4px; } h2 { font-size: 19px; margin: 28px 0 6px; }
+    .muted { color: var(--muted); } a { color: var(--accent); } ul { padding-left: 20px; }
+    code { font-size: 14px; } footer { border-top: 1px solid var(--line); margin-top: 36px; padding-top: 12px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Gadget Inventory · Last updated: 21 October 2026</p>
+
+  <p>Gadget Inventory is a stock and sales app that each business installs and runs on its own Windows computer.
+    This policy explains what information the app handles and where it goes. In short: <b>your business records stay
+    on your own computer</b>, and the app's maker does not receive, collect or see them.</p>
+
+  <h2>Information the app stores</h2>
+  <p>The app stores the information you enter: your business name, logins for you and your staff (passwords are
+    stored only in scrambled, hashed form), stock and IMEI numbers, suppliers, customers and their phone numbers,
+    sales, payments, expenses, returns, fault notes and photos, your logo, and daily summaries. All of this is kept in
+    the app's data folder on the computer where it is installed (<code>%LOCALAPPDATA%\Gadget Inventory</code>).</p>
+  <p>The app has no central server, no advertising and no analytics. It does not send your records to Accord Gadgets
+    or anyone else. Separate installations of the app do not share or sync records with each other.</p>
+
+  <h2>Optional Google Drive backups</h2>
+  <p>If, and only if, a business owner chooses <b>Connect Google Drive</b>, the app uses Google's sign-in to ask for
+    permission to <b>create and manage the files it makes itself</b> in that owner's own Google Drive (Google's
+    <code>drive.file</code> permission). The app cannot see, open or change any other files in your Drive.</p>
+  <ul>
+    <li><b>What is uploaded:</b> a backup copy of that one business's records, settings, logo and fault photos, saved to a
+      folder in the owner's own Drive once a day while the app is running. The newest 30 daily copies are kept;
+      older copies the app made are deleted.</li>
+    <li><b>Who can see it:</b> the backups are in the owner's own Google account, under that owner's control. They are not
+      sent to Accord Gadgets.</li>
+    <li><b>Your Google sign-in:</b> the app never sees your Google password. Google gives the app an access key, which is stored
+      encrypted on the business's own computer and used only to make, list, download and remove its backup files.</li>
+    <li><b>Stopping:</b> owners can press <b>Disconnect</b> in the app at any time, which deletes the stored access key and
+      tells Google to cancel it. You can also remove the app's access at
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Backup files already in
+      your Drive stay there until you delete them.</li>
+  </ul>
+  <p>The app's use of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including the Limited Use requirements. Information from Google is used only to provide the backup feature. It is
+    not used for advertising, not sold, and not transferred to anyone else.</p>
+
+  <h2>Keeping records safe</h2>
+  <p>Logins are protected with hashed passwords, the app accepts connections only from the computer it runs on, and
+    staff accounts see only what the owner allows. Each business is responsible for the security of its own
+    computer and for keeping its own backups.</p>
+
+  <h2>Deleting your information</h2>
+  <p>Uninstalling the app does not delete records. To delete them completely, delete the app's data folder
+    (<code>%LOCALAPPDATA%\Gadget Inventory</code>) and any backup files you saved, including those in your Google Drive.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, the new version will be published on this page with a new date. Questions:
+    <a href="mailto:abdulalimzakariyah@gmail.com">abdulalimzakariyah@gmail.com</a>.</p>
+
+  <footer>Gadget Inventory by Accord Gadgets · <a href="index.html">Home</a></footer>
+</main>
+</body>
+</html>
